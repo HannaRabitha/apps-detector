@@ -21,7 +21,7 @@ function Menu() {
                 Go to this step process on how to detect your coffee beans:
               </p>
               <a
-                href="#"
+                href="/detect"
                 class="inline-flex items-center text-blue-600 hover:underline"
               >
                 Deteksi Sekarang
@@ -45,7 +45,7 @@ function Menu() {
 
             <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
               <img class="rounded-t-lg" src={'undraw_Annotation.png'} alt="" />
-              <a href="#">
+              <a href="/about">
                 <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
                   Tentang Biji Kopi
                 </h5>
@@ -54,7 +54,7 @@ function Menu() {
                 Go to this step to know more about your coffee beans:
               </p>
               <a
-                href="#"
+                href="/about"
                 class="inline-flex items-center text-blue-600 hover:underline"
               >
                 Lihat Lebih Lanjut
@@ -78,7 +78,7 @@ function Menu() {
 
             <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
               <img class="rounded-t-lg" src={'undraw_Questions.png'} alt="" />
-              <a href="#">
+              <a href="/help">
                 <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
                   Need a help?
                 </h5>
@@ -88,7 +88,7 @@ function Menu() {
                 coffee beans:
               </p>
               <a
-                href="#"
+                href="/help"
                 class="inline-flex items-center text-blue-600 hover:underline"
               >
                 See our guideline
