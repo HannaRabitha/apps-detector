@@ -53,7 +53,7 @@ function Home() {
         </div>
         <div className="flex items-center justify-center w-full lg:w-1/2">
           <div className="">
-            <img src="unDraw_Coffee.png" alt="" />
+            <img src="unDraw_Organizing.png" alt="" />
             {/* <Image
               src={heroImg}
               width="616"
