@@ -7,7 +7,11 @@ function Menu() {
         <Container className="flex flex-wrap ">
           <div className="w-full flex flex-wrap justify-between gap-y-6">
             <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-              <img class="rounded-t-lg" src="undraw_mobile_photos.png" alt="" />
+              <img
+                class="rounded-t-lg"
+                src={'undraw_mobile_photos.png'}
+                alt=""
+              />
 
               <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
                 Mulai Deteksi
@@ -40,7 +44,7 @@ function Menu() {
             </div>
 
             <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-              <img class="rounded-t-lg" src="undraw_Annotation.png" alt="" />
+              <img class="rounded-t-lg" src={'undraw_Annotation.png'} alt="" />
               <a href="#">
                 <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
                   Tentang Biji Kopi
@@ -73,7 +77,7 @@ function Menu() {
             </div>
 
             <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-              <img class="rounded-t-lg" src="undraw_Questions.png" alt="" />
+              <img class="rounded-t-lg" src={'undraw_Questions.png'} alt="" />
               <a href="#">
                 <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
                   Need a help?
