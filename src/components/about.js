@@ -46,7 +46,7 @@ function About() {
 
           <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
-              <img class="rounded-t-lg" src={'mutu B.jpeg'} alt="" />
+              <img class="rounded-t-lg" src={'mutu b.jpeg'} alt="" />
             </a>
             <div class="p-5">
               <a href="#">
@@ -84,7 +84,7 @@ function About() {
 
           <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
-              <img class="rounded-t-lg" src={'mutu C.jpeg'} alt="" />
+              <img class="rounded-t-lg" src={'mutu c.jpeg'} alt="" />
             </a>
             <div class="p-5">
               <a href="#">
