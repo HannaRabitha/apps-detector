@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Mutu A",
+    "src": "mutu A.jpeg",
+    "desc": "Biji kopi mutu A merupakan biji kopi dengan nilai harga tinggi. Pada saat diuji tidak dietemukan biji yang rusak, biji pecah dan benda lain. Biji kopi grade A memiliki warna yang cenderung putih kehijauan, tekstur biji yang padat dan tidak meninggalkan bercak warna gelap."
+  },
+  {
+    "id": 2,
+    "name": "Mutu B",
+    "src": "mutu b.jpeg",
+    "desc": "Biji kopi mutu B merupakan biji kopi dengan nilai harga sedang. Pada saat diuji tidak dietemukan biji yang rusak, biji pecah dan benda lain. Biji kopi grade B memiliki warna yang cenderung putih kekuningan, tekstur biji yang padat."
+  },
+  {
+    "id": 3,
+    "name": "Mutu C",
+    "src": "mutu c.jpeg",
+    "desc": "Biji kopi mutu C merupakan biji kopi dengan nilai harga rendah. Pada saat diuji tidak dietemukan biji yang rusak, biji pecah dan benda lain. Biji kopi grade C memiliki warna yang cenderung kecoklatan, tekstur biji yang kecil."
+  }
+]
