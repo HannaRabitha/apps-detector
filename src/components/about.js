@@ -6,7 +6,7 @@ function About() {
   return (
     <>
       <Container className="flex flex-wrap mb-10 ">
-        <div className="flex w-full flex-wrap gap-y-8 justify-between">
+        <div className="flex w-full pb-6 flex flex-wrap justify-center gap-6">
           {bijiData.map((biji) => (
             <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
               {/* <a href="#"> */}

@@ -5,7 +5,7 @@ function Menu() {
     <>
       <div className="bg-[#6F4E37] bg-full min-h-screen">
         <Container className="flex flex-wrap ">
-          <div className="w-full flex flex-wrap justify-between gap-y-6">
+          <div className="w-full pb-6 flex flex-wrap justify-center gap-6">
             <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
               <img
                 class="rounded-t-lg"
