@@ -7,11 +7,11 @@ function Home() {
       <Container className="flex flex-wrap ">
         <div className="flex items-center w-full lg:w-1/2">
           <div className="max-w-2xl mb-8">
-            {/* <img
-              className="h-20"
-              src="coffebeans.png"
+            <img
+              className="h-40 hidden md:flex"
+              src="logo.png"
               alt="Logo Coffee Beans"
-            /> */}
+            />
             <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
               ArCoffee
             </h1>
