@@ -13,9 +13,9 @@ export default function App() {
     { path: '/about', element: <About /> },
     { path: '/menu', element: <Menu /> },
     { path: '/help', element: <Help /> },
-    { path: '/detect', element: <Deteksi /> },
+    { path: '/detect2', element: <Deteksi /> },
     {
-      path: '/roboflow',
+      path: '/detect',
       element: <Roboflow />,
     },
   ]);

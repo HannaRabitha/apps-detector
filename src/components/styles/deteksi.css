@@ -37,8 +37,8 @@ canvas {
 video,
 canvas {
   position: fixed;
-  top: 0;
-  left: 0;
+  /* top: 0;
+  left: 0; */
 }
 
 .deteksi:after {

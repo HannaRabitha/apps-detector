@@ -1,20 +1,9 @@
 import { useEffect } from 'react';
 import Container from './container';
+import './styles/deteksi.css';
 
-// import './styles/deteksi.css';
 function Deteksi() {
   useEffect(() => {
-    // const script = document.createElement('script');
-
-    // script.src = 'https://cdn.roboflow.com/0.2.26/roboflow.js';
-    // script.async = true;
-
-    // document.body.appendChild(script);
-
-    // return () => {
-    //   document.body.removeChild(script);
-    // };
-
     mulaideteksi();
   }, []);
 
@@ -55,13 +44,20 @@ function Deteksi() {
         .load(toLoad)
         .then(function (m) {
           model = m;
+
+          console.log('model loaded');
           resolve();
         });
     });
 
-    Promise.all([startVideoStreamPromise, loadModelPromise]).then(
-      removeClass()
-    );
+    Promise.all([startVideoStreamPromise, loadModelPromise]).then(function () {
+      console.log('Promise.all');
+      //    $('body').removeClass('loading');
+      var element = document.getElementById('deteksi');
+      element.classList.remove('loading');
+      resizeCanvas();
+      detectFrame();
+    });
 
     var canvas, ctx;
     const font = '16px sans-serif';
@@ -91,21 +87,24 @@ function Deteksi() {
       };
     }
 
-    // window.resize(function () {
-    //   resizeCanvas();
-    // });
-
-    // if (window) {
-    //   window.addEventListener('resize', resizeCanvas());
-    // }
+    window.addEventListener('resize', function () {
+      console.log('resize');
+      resizeCanvas();
+    });
 
     const resizeCanvas = function () {
       //  $('canvas').remove();
-      document.getElementById('canvas').remove();
+      if (canvas) {
+        canvas.remove();
+      }
+
       //  canvas = $('<canvas/>');
       canvas = document.createElement('canvas');
 
-      ctx = canvas[0].getContext('2d');
+      console.log('resizeCanvas', canvas);
+
+      //   ctx = canvas.getContext('2d');
+      ctx = canvas.getContext('2d');
 
       var dimensions = videoDimensions(video);
 
@@ -117,23 +116,22 @@ function Deteksi() {
         dimensions
       );
 
-      canvas[0].width = video.videoWidth;
-      canvas[0].height = video.videoHeight;
+      canvas.width = video.videoWidth;
+      canvas.height = video.videoHeight;
 
-      canvas.css({
-        width: dimensions.width,
-        height: dimensions.height,
-        // left: ($(window).width() - dimensions.width) / 2,
-        // top: ($(window).height() - dimensions.height) / 2,
-        left: window.innerWidth - dimensions.width / 2,
-        top: window.innerHeight - dimensions.height / 2,
-      });
+      canvas.style.width = dimensions.width + 'px';
+      canvas.style.height = dimensions.height + 'px';
+      canvas.style.left = window.innerWidth / 2 - dimensions.width / 2 + 'px';
+      canvas.style.top = window.innerHeight / 2 - dimensions.height / 2 + 'px';
 
-      //   $('body').append(canvas);
-      document.body.appendChild(canvas);
+      //   document.body.appendChild(canvas);
+      document.getElementById('deteksi').appendChild(canvas);
+      console.log('styled canvas', canvas);
     };
 
     const renderPredictions = function (predictions) {
+      //   console.log('renderPredictions', predictions);
+
       var dimensions = videoDimensions(video);
 
       var scale = 1;
@@ -191,6 +189,8 @@ function Deteksi() {
     var prevTime;
     var pastFrameTimes = [];
     const detectFrame = function () {
+      //   console.log('detectFrame', model, video);
+
       if (!model) return requestAnimationFrame(detectFrame);
 
       model
@@ -212,7 +212,7 @@ function Deteksi() {
             });
 
             var fps = pastFrameTimes.length / total;
-            // $('#fps').text(Math.round(fps));
+
             document.getElementById('fps').innerText = Math.round(fps);
           }
           prevTime = Date.now();
@@ -224,35 +224,25 @@ function Deteksi() {
     };
   }
 
-  function removeClass() {
-    var loading = document.querySelector('.loading');
-    loading.classList.remove('loading');
-    resizeCanvas();
-    detectFrame();
-  }
-
-  function resizeCanvas() {}
-  function detectFrame() {}
-
   return (
     <>
-      <div className="min-h-screen">
-        <Container className="flex flex-wrap ">
-          <div className="flex flex-col mx-auto text-center justify-center">
-            <div>
+      {/* <div className="min-h-screen"> */}
+      {/* <Container className="flex flex-wrap "> */}
+      {/* <div className="flex flex-col mx-auto text-center justify-center"> */}
+      {/* <div>
               <h2 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
                 Deteksi Biji Kopi
               </h2>
-            </div>
-            <div className="deteksi">
-              <div className="loading">
-                <video id="video" autoplay muted playsinline></video>
-                <div id="fps"></div>
-              </div>
-            </div>
-          </div>
-        </Container>
+            </div> */}
+      <div id="deteksi" className="deteksi bg-black">
+        <div className="loading">
+          <video id="video" autoPlay muted playsInline></video>
+          <div id="fps"></div>
+        </div>
       </div>
+      {/* </div> */}
+      {/* </Container> */}
+      {/* </div> */}
     </>
   );
 }

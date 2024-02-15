@@ -1,4 +1,4 @@
-import { useRef, useEffect } from 'react';
+import { useRef, useEffect, useState } from 'react';
 import Webcam from 'react-webcam';
 import Container from './container';
 
@@ -7,6 +7,8 @@ const PROJECT_URL = 'coffee-quality-detection-x4zl2';
 const MODEL_VERSION = 1;
 
 const Roboflow = (props) => {
+  const [spinner, setSpinner] = useState(true);
+
   const webcamRef = useRef(null);
   const canvasRef = useRef(null);
   var inferRunning;
@@ -26,9 +28,10 @@ const Roboflow = (props) => {
         },
       })
       .then((model) => {
+        setSpinner(false);
         setInterval(() => {
           if (inferRunning) detect(model);
-        }, 10);
+        }, 3);
       });
   };
 
@@ -142,6 +145,12 @@ const Roboflow = (props) => {
     <>
       <div className="min-h-screen">
         <Container className="flex flex-wrap ">
+          {spinner && (
+            <>
+              <div class="w-16 h-16 border-4 border-dashed rounded-full animate-spin dark:border-violet-400"></div>
+              <p>Loading...</p>
+            </>
+          )}
           <Webcam
             ref={webcamRef}
             muted={true}
