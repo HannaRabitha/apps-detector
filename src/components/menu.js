@@ -21,7 +21,8 @@ function Menu() {
                 Go to this step process on how to detect your coffee beans:
               </p>
 
-              <a href="https://demo.roboflow.com/coffee-quality-detection-x4zl2/1?publishable_key=rf_xoEHzd9Rtgcu3YHFTWXE4NiBwXE3">
+              {/* <a href="https://demo.roboflow.com/coffee-quality-detection-x4zl2/1?publishable_key=rf_xoEHzd9Rtgcu3YHFTWXE4NiBwXE3"> */}
+              <a href="/detect">
                 <button
                   type="button"
                   class="w-full flex items-center justify-center text-white bg-yellow-800 hover:bg-yellow-600 focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-sm px-4 py-2 text-center"
