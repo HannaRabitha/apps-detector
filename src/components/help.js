@@ -44,7 +44,7 @@ function Help() {
                       clip-rule="evenodd"
                     />
                   </svg>
-                  Klik tombol "Mulai" pada halaman splashscreen
+                  Klik tombol "Get Started" pada halaman utama
                 </li>
                 <li class="flex gap-x-3">
                   <svg
@@ -59,7 +59,7 @@ function Help() {
                       clip-rule="evenodd"
                     />
                   </svg>
-                  Klik tombol "Mulai Deteksi" pada halaman utama
+                  Klik tombol "Deteksi Sekarang" pada halaman menu
                 </li>
                 <li class="flex gap-x-3">
                   <svg
@@ -74,7 +74,8 @@ function Help() {
                       clip-rule="evenodd"
                     />
                   </svg>
-                  Gambar dapat diambil langsung melalui kamera
+                  Halaman akan diarahkan pada kamera, klik "allow" untuk
+                  mengakses kamera pada browser
                 </li>
                 <li class="flex gap-x-3">
                   <svg
@@ -89,7 +90,8 @@ function Help() {
                       clip-rule="evenodd"
                     />
                   </svg>
-                  Klik Proses, maka hasil kana keluar pada halaman hasil
+                  Arahkan kamera pada objek dan kemudian akan terlihat hasil
+                  dari deteksi biji kopi/objek tersebut secara realtime
                 </li>
               </ol>
             </div>
