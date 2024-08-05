@@ -32,7 +32,7 @@ function Deteksi() {
 
     var publishable_key = 'rf_xoEHzd9Rtgcu3YHFTWXE4NiBwXE3';
     var toLoad = {
-      model: 'coffee-quality-detection-x4zl2',
+      model: 'real-time-classification-jerawat',
       version: 1,
     };
 
