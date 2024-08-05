@@ -2,7 +2,7 @@ function Footer() {
   return (
     <footer>
       {/* <p>© 2020</p> */}
-      <div className="-mt-24">
+      <div className="-mt-28">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path
             fill="#6F4E37"

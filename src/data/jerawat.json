@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "name": "Kistik",
+      "src": "jerawat1.png",
+      "desc": "",
+      "karakteristik": "Jerawat ini besar, terasa sakit, dan berada di bawah permukaan kulit. Jerawat cystic sering kali berisi nanah dan cairan, membentuk benjolan lembut. Ini adalah salah satu bentuk jerawat yang paling parah.",
+      "penyebab": "Biasanya disebabkan oleh infeksi dan peradangan yang dalam pada kulit. Cenderung terjadi karena kelebihan sebum, sel kulit mati, dan bakteri yang menyumbat pori-pori."
+    },
+    {
+      "id": 2,
+      "name": "Nodule",
+      "src": "jerawat2.png",
+      "desc": "",
+      "karakteristik": "Mirip dengan jerawat cystic, tetapi lebih keras dan tidak berisi cairan atau nanah. Nodul adalah benjolan besar dan menyakitkan yang terbentuk di bawah permukaan kulit.",
+      "penyebab": "Disebabkan oleh peradangan yang mendalam di dalam kulit. Mereka bisa menjadi lebih besar dan bertahan lama."
+    },
+    {
+      "id": 3,
+      "name": "Papules",
+      "src": "jerawat3.png",
+      "desc": "",
+      "karakteristik": "Papula adalah jerawat kecil yang berwarna merah dan tidak berisi nanah. Mereka biasanya muncul sebagai benjolan kecil yang meradang di permukaan kulit.",
+      "penyebab": "Disebabkan oleh peradangan ringan di sekitar folikel rambut atau kelenjar minyak. Biasanya terjadi akibat iritasi atau infeksi ringan."
+    }
+  ]
+  

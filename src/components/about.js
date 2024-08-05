@@ -1,26 +1,37 @@
 import Container from './container';
 import Footer from './footer';
-import bijiData from '../data/bijikopi.json';
+// import itemData from '../data/itemkopi.json';
+import dataJerawat from '../data/jerawat.json';
 
 function About() {
   return (
     <>
       <Container className="flex flex-wrap mb-10 ">
-        <div className="flex w-full pb-6 flex flex-wrap justify-center gap-6">
-          {bijiData.map((biji) => (
-            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div className="w-full pb-6 grid xl:grid-cols-3 justify-center gap-6">
+          {dataJerawat.map((item) => (
+            <div class="xl:max-w-sm bg-[#A93761] border rounded-lg shadow">
               {/* <a href="#"> */}
-              <img class="rounded-t-lg" src={biji.src} alt="" />
+              <img class="rounded-t-lg h-52 object-cover w-full" src={item.src} alt="" />
               {/* </a> */}
               <div class="p-5">
                 {/* <a href="#"> */}
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  Biji Kopi {biji.name}
+                  Jerawat {item.name}
                 </h5>
                 {/* </a> */}
-                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 text-justify">
-                  {biji.desc}
+                <div className='pt-2'>
+                <span className='text-white font-bold'>Karakteristik: </span>
+                <p class="mb-3 font-normal text-white text-justify">
+                  {item.karakteristik}
                 </p>
+                </div>
+
+                <div className='pt-2'>
+                <span className='text-white font-bold'>Penyebab: </span>
+                <p class="mb-3 font-normal text-white text-justify">
+                  {item.penyebab}
+                </p>
+                </div>
                 {/* <a
                   href="#"
                   class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"

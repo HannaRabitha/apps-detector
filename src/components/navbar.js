@@ -6,17 +6,18 @@ function Navbar() {
           <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
             <img src="logo.png" class="h-8" alt="Flowbite Logo" />
             <span class="self-center text-2xl font-semibold whitespace-nowrap">
-              ArCoffee
+            Jerawat Detector
             </span>
           </a>
           <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-            <button
-              href="/menu"
-              type="button"
-              class="hidden md:flex text-white bg-yellow-800 hover:bg-yellow-600 focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-sm px-4 py-2 text-center"
-            >
-              Get started
-            </button>
+          
+            <a
+                href="/menu"
+                rel="noopener"
+                 class="hidden md:flex text-white bg-[#CB5E86] hover:bg-[#A93761] focus:ring-4 focus:outline-none  font-medium rounded-lg text-sm px-4 py-2 text-center"
+              >
+                Get Started
+              </a>
             {/* <button
               data-collapse-toggle="navbar-sticky"
               type="button"
@@ -50,7 +51,7 @@ function Navbar() {
               <li>
                 <a
                   href="/"
-                  class="block py-2 px-3 text-white bg-yellow-700 rounded md:bg-transparent md:text-yellow-800 md:p-0"
+                  class="block py-2 px-3 text-white bg-[#CB5E86] rounded md:bg-transparent md:text-[#A93761] md:p-0"
                   aria-current="page"
                 >
                   Home
@@ -59,7 +60,7 @@ function Navbar() {
               <li>
                 <a
                   href="/about"
-                  class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-yellow-800 md:p-0"
+                  class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#A93761] md:p-0"
                 >
                   About
                 </a>
@@ -67,7 +68,7 @@ function Navbar() {
               <li>
                 <a
                   href="/menu"
-                  class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-yellow-800 md:p-0 "
+                  class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#A93761] md:p-0 "
                 >
                   Menu
                 </a>

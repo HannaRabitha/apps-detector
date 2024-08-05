@@ -17,8 +17,8 @@ function Help() {
             </p>
           </div>
           <p class="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-yellow-600">
-            ArCoffee adalah aplikasi untuk mendeteksi biji kopi kedalam tiga
-            tingkatan mutu yaitu mutu A, B, C dengan mengambil citra biji kopi.
+          Jerawat Detector adalah aplikasi yang dapat mendeteksi jenis jerawat secara realtime. 
+          Aplikasi ini dibuat untuk memudahkan user dalam mendeteksi jerawat pada wajah secara realtime.
           </p>
 
           <div class="isolate justify-center mx-auto mt-10 grid max-w-md gap-8 lg:max-w-none lg:w-fit">
@@ -91,7 +91,7 @@ function Help() {
                     />
                   </svg>
                   Arahkan kamera pada objek dan kemudian akan terlihat hasil
-                  dari deteksi biji kopi/objek tersebut secara realtime
+                  dari deteksi wajah tersebut secara realtime
                 </li>
               </ol>
             </div>

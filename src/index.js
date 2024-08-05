@@ -13,6 +13,7 @@ const root = createRoot(rootElement);
 root.render(
   <Router>
     <Navbar />
+   
     <App />
     {/* <Footer /> */}
   </Router>

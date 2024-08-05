@@ -3,8 +3,9 @@ import Webcam from 'react-webcam';
 import Container from './container';
 
 const PUBLISHABLE_ROBOFLOW_API_KEY = 'rf_xoEHzd9Rtgcu3YHFTWXE4NiBwXE3';
-const PROJECT_URL = 'coffee-quality-detection-x4zl2';
+const PROJECT_URL = 'real-time-classification-jerawat';
 const MODEL_VERSION = 1;
+
 
 const Roboflow = (props) => {
   const [spinner, setSpinner] = useState(true);
