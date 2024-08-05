@@ -10,7 +10,7 @@ function Help() {
             <img
               className="h-20 w-fit m-auto justify-center"
               src="logo.png"
-              alt="Logo Coffee Beans"
+              alt="Logo Acne Detector"
             />
             <p class="mt-2 text-4xl font-bold tracking-tight text-yellow-800 sm:text-5xl">
               Halaman Tutorial

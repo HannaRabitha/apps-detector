@@ -4,13 +4,13 @@ import Footer from './footer';
 function Home() {
   return (
     <>
-      <Container className="flex flex-wrap pt-0">
+      <Container className="flex flex-wrap">
         <div className="flex items-center w-full xl:p-8 md:p-8 lg:w-1/2">
           <div className="max-w-2xl mb-8">
             {/* <img
               className="h-40 hidden md:flex"
               src="logo.png"
-              alt="Logo Coffee Beans"
+              alt="Logo Acne Detector"
             /> */}
 
             <h1 className="text-4xl font-bold leading-snug tracking-tight text-[#CB5E86]">
@@ -54,7 +54,7 @@ function Home() {
         </div>
         <div className="flex items-center justify-center w-full lg:w-1/2">
           <div className="flex justify-end -mr-10">
-            <img className='h-90' src={'logo.png'} alt="" />
+            <img className='h-90 xl:-mt-44' src={'logo.png'} alt="" />
             {/* <Image
               src={heroImg}
               width="616"

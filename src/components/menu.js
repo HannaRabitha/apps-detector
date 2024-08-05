@@ -17,8 +17,8 @@ function Menu() {
                 Mulai Deteksi
               </h5>
 
-              <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">
-                Go to this step process on how to detect your coffee beans:
+              <p class="mb-3 font-normal text-gray-500">
+                Go to this step process on how to detect your face:
               </p>
 
               {/* <a href="https://demo.roboflow.com/coffee-quality-detection-x4zl2/1?publishable_key=rf_xoEHzd9Rtgcu3YHFTWXE4NiBwXE3"> */}
@@ -56,8 +56,8 @@ function Menu() {
                   Jenis-Jenis Jerawat
                 </h5>
               </a>
-              <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">
-                Go to this step to know more about your coffee beans:
+              <p class="mb-3 font-normal text-gray-500">
+                Go to this step to know more about your acne:
               </p>
               <a href="/about">
                 <button
@@ -91,9 +91,8 @@ function Menu() {
                   Need a help?
                 </h5>
               </a>
-              <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">
-                Go to this step by step guideline process on how to detect your
-                coffee beans:
+              <p class="mb-3 font-normal text-gray-500">
+                Go to this step by step guideline process on how to detect your face:
               </p>
               <a
                 href="/help"
