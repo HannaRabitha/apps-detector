@@ -1,27 +1,43 @@
 [
     {
       "id": 1,
-      "name": "Kistik",
-      "src": "jerawat1.png",
-      "desc": "",
-      "karakteristik": "Jerawat ini besar, terasa sakit, dan berada di bawah permukaan kulit. Jerawat cystic sering kali berisi nanah dan cairan, membentuk benjolan lembut. Ini adalah salah satu bentuk jerawat yang paling parah.",
-      "penyebab": "Biasanya disebabkan oleh infeksi dan peradangan yang dalam pada kulit. Cenderung terjadi karena kelebihan sebum, sel kulit mati, dan bakteri yang menyumbat pori-pori."
+      "name": "Komedo (Blackhead & Whitehead)",
+      "src": "komedo.jpg",
+      "desc": "<p>Komedo adalah jenis jerawat yang paling ringan dan sering menjadi awal dari jerawat yang lebih parah.</p><br/> <ul><li>Blackhead (Komedo Terbuka): Terjadi ketika pori-pori tersumbat oleh minyak (sebum) dan sel kulit mati, namun tetap terbuka di permukaan kulit. Paparan udara menyebabkan isi pori menghitam karena proses oksidasi.</li><br/><li>Whitehead (Komedo Tertutup): Pori-pori yang tersumbat namun tertutup oleh lapisan kulit tipis. Komedo ini tampak seperti bintik putih kecil dan biasanya tidak meradang.</li></ul>",
+      "karakteristik": "",
+      "penyebab": ""
     },
     {
       "id": 2,
-      "name": "Nodule",
-      "src": "jerawat2.png",
-      "desc": "",
-      "karakteristik": "Mirip dengan jerawat cystic, tetapi lebih keras dan tidak berisi cairan atau nanah. Nodul adalah benjolan besar dan menyakitkan yang terbentuk di bawah permukaan kulit.",
-      "penyebab": "Disebabkan oleh peradangan yang mendalam di dalam kulit. Mereka bisa menjadi lebih besar dan bertahan lama."
+      "name": "Papula",
+      "src": "papula.webp",
+      "desc": "<p>Papula adalah benjolan kecil yang muncul di kulit akibat peradangan. Tidak seperti komedo, papula terasa sakit saat disentuh, berwarna merah, dan tidak memiliki kepala berisi nanah. Papula terjadi saat dinding folikel rambut rusak karena tekanan dari dalam pori-pori yang tersumbat.</p>",
+      "karakteristik": "",
+      "penyebab": ""
     },
     {
       "id": 3,
-      "name": "Papules",
+      "name": "Pustula",
+      "src": "pustula.webp",
+      "desc": "<p>Pustula merupakan perkembangan lanjutan dari papula. Jerawat ini tampak seperti benjolan merah dengan pusat berwarna putih atau kuning karena berisi nanah. Meskipun terlihat menggoda untuk dipencet, memencet pustula bisa menyebabkan infeksi lebih parah dan meninggalkan bekas luka.</p>",
+      "karakteristik": "",
+      "penyebab": ""
+    },
+    {
+      "id": 4,
+      "name": "Nodul",
+      "src": "nodul.jpeg",
+      "desc": "<p>Nodul adalah jenis jerawat yang lebih serius. Berbentuk benjolan besar, keras, dan terasa sakit yang terbentuk jauh di bawah permukaan kulit. Tidak seperti pustula, nodul tidak memiliki kepala dan tidak berisi nanah yang terlihat. Penanganan nodul biasanya membutuhkan bantuan medis atau pengobatan resep dari dokter.</p>",
+      "karakteristik": "",
+      "penyebab": ""
+    },
+    {
+      "id": 5,
+      "name": "Jerawat Kistik (Cystic Acne)",
       "src": "jerawat3.png",
-      "desc": "",
-      "karakteristik": "Papula adalah jerawat kecil yang berwarna merah dan tidak berisi nanah. Mereka biasanya muncul sebagai benjolan kecil yang meradang di permukaan kulit.",
-      "penyebab": "Disebabkan oleh peradangan ringan di sekitar folikel rambut atau kelenjar minyak. Biasanya terjadi akibat iritasi atau infeksi ringan."
+      "desc": "<p>Ini adalah bentuk jerawat yang paling parah dan menyakitkan. Jerawat kistik terjadi ketika pori-pori tersumbat sangat dalam dan menyebabkan infeksi parah yang memicu pembentukan kista berisi nanah. Ukurannya besar, terasa lunak saat disentuh, dan sering kali meninggalkan bekas luka permanen. Pengobatan biasanya memerlukan terapi jangka panjang seperti antibiotik oral atau isotretinoin.</p>",
+      "karakteristik": "",
+      "penyebab": ""
     }
   ]
   

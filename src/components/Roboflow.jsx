@@ -2,8 +2,8 @@ import { useRef, useEffect, useState } from 'react';
 import Webcam from 'react-webcam';
 import Container from './container';
 
-const PUBLISHABLE_ROBOFLOW_API_KEY = 'rf_xoEHzd9Rtgcu3YHFTWXE4NiBwXE3';
-const PROJECT_URL = 'real-time-classification-jerawat';
+const PUBLISHABLE_ROBOFLOW_API_KEY = 'owrPCQbVjEfffPUHJyTi';
+const PROJECT_URL = 'real-time-classification-jerawat-ttvc5';
 const MODEL_VERSION = 1;
 
 
